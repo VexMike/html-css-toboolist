@@ -56,36 +56,69 @@ body {
 /* LISTE */
 .section-list {
     background-color: white;
+    padding: 20px 40px;
+    }
+    
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
-li span {
+.title-list {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.list-items li {
+    margin-top: 10px;
+}
+
+.today-list {
+    padding-top: 30px;
+}
+
+.upcoming-list {
+    padding-top: 30px;
+}
+
+span {
     color: white;
     display: inline-block;
     border: 1px solid white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 7px;
+    text-align: center;
+    line-height: 10px;
 }
 
 .editorial {
+    font-size: 10px;
     background-color: #09A9ED;
 }
 
 .q-one-goals {
+    font-size: 10px;
     background-color: #AB5DE6;
 }
 
 .recruiting {
+    font-size: 10px;
     background-color: #2CC6AB;
 }
 
-.mibile {
+.mobile {
+    font-size: 10px;
     background-color: #FF9B00;
 }
 
 .website {
+    font-size: 10px;
     background-color: #EC4A9D;
 }
 
 .sales {
+    font-size: 10px;
     background-color: #A3D116;
 }
+
