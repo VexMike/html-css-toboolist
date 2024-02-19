@@ -28,6 +28,7 @@ body {
     margin: 0 auto;
 }
 
+/* BOTTONI */
 .bottons {
     padding: 10px 50px;
     background-color: white;
@@ -50,6 +51,14 @@ body {
     padding: 5px;
 }
 
+/* LISTE */
 .section-list {
     background-color: white;
 }
+
+
+
+
+
+
+
