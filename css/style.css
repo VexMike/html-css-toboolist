@@ -5,21 +5,51 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #70757b;
+ul, ol {
+    list-style: none;
 }
+
+body {
+    background-color: #F6F8F9;
+}
+
 /* HEADER */
 .page-header {
     background-color: white;
+    padding: 10px 20px;
 }
 
 /* MAIN */
+.content {
+    padding: 50px 0px;
+}
 .container {
-    background-color: white;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.content {
-    padding: 50px;
+.bottons {
+    padding: 10px 50px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.button-task {
+    display: inline-block;
+    background-color: #14AAF5;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button-section {
+    display: inline-block;
+    background-color: #white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.section-list {
+    background-color: white;
 }
